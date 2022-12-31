@@ -1,5 +1,4 @@
 pragma solidity ^0.8.7;
-//THUBA DAO版权所有，盗用必究
 contract Notes {
     struct note {
         uint256 id;

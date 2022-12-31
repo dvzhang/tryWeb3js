@@ -104,7 +104,7 @@
           width="15"
           src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"
         />
-        By THUBA Jerry Chong and Toh Li Heng
+        By THUBA DAO
       </el-footer>
     </el-container>
   </div>
@@ -136,7 +136,7 @@ export default {
       const provider = new ethers.providers.Web3Provider(ethereum)
       const signer = provider.getSigner()
       const contract = new ethers.Contract(
-        '0x6090e0279eEA5Ef1a3D320818545C44057a6D4B1',
+        '0x18Ca3114513BB73B30b8fF8fcA4898049De7249f',
         abi,
         signer
       )
